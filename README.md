@@ -20,7 +20,12 @@ class Solution:
                 if s>ans:
                     ans=s
         return ans
-       
+N=int(input("enter size of elements"))
+print("enter elements of array")
+A=list(map(int, input().split()))[:N]
+sol=Solution()
+answer=sol.maxSubArray(A)
+print(answer)
         
             
 #Sample input in problem link.
